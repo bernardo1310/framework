@@ -48,7 +48,7 @@ Representa uma coluna da tabela, com atributos como nome, tipo, se é chave prim
 Modela o relacionamento entre tabelas, conectando um campo de uma tabela a um campo de outra, simulando as relações reais do banco.
 
 ### GeradorDeScript  
-Classe responsável por construir os comandos SQL a partir das informações dos objetos do sistema.
+Classe responsável por construir os comandos SQL a partir das informações dos objetos do sistema.(Após sugestoes em sala, foi realizado a ramificação da classe para as classes necessarias)
 
 ### ExecutorDeScript  
 Executa os scripts SQL no banco real usando JDBC e a configuração de conexão definida.
